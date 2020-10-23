@@ -1,2 +1,6 @@
 selenium to be installed
+This module requires python bindings for the selenium webdriver
+
+$ pip install selenium
+
 web driver installtion 
