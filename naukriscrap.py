@@ -10,7 +10,17 @@ import csv
 import time
 from selenium import webdriver
 import pandas as pd
+import bs4
 from bs4 import BeautifulSoup
+import math
+import urllib 
+import numpy as np
+from urllib.request import Request, urlopen
+import requests
+from time import sleep
+from random import randint
+from selenium.common.exceptions import *
+import datetime
 
 
 #driver = "C:\Program Files (x86)\chromedriver.exe"
