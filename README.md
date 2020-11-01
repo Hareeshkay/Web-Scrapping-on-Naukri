@@ -1,5 +1,5 @@
-# Web-Scrapping-on-Naukri- In progress
-An approach on scrapping the content from Naukri using Selenium.
+# Web-Scrapping-on-Naukri- In progress 
+An approach on scrapping the content from Naukri using Selenium and finding insights.
 
 This module requires python bindings for the selenium webdriver
 > To install selenium 
