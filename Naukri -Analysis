@@ -1,1 +1,19 @@
+#data cleaning and eda
+import pandas as pd
+import numpy as np
+from collections import defaultdict
+import re
 
+#importing the dataset which we extracted 
+df1 = pd.read_csv("C:\\Users\\u6067583\\Downloads\\Project\\naukriscrapdata.csv")
+df1.columns
+df1.isna().sum() 
+df1.drop(['Unnamed: 0'],inplace = True,axis = 1) 
+df1.duplicated().sum() 
+df1.drop_duplicates(inplace=True) 
+df1.shape
+Search_for_These_values = ['Help Desk','Helpdesk','tech support','BPO','Testing'] 
+pattern = '|'.join(Search_for_These_values)
+result = df1[~df1["skills"].str.contains(pattern)]
+
+result["skills"] = result["skills"].map(lambda x:x.lstrip('IT Skills/n'))  
