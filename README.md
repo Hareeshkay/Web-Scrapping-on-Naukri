@@ -9,3 +9,5 @@ A driver is needed to be installed based on your computer, since i have google c
 chrome driver can be downloaded from here, download the version as same as your web browser
 
 https://sites.google.com/a/chromium.org/chromedriver/home
+
+PHASE 1  > DATA EXCTRACTION -
