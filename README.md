@@ -11,4 +11,5 @@ chrome driver can be downloaded from here, download the version as same as your 
 https://sites.google.com/a/chromium.org/chromedriver/home
 
 PHASE 1  > DATA EXCTRACTION - naukriscrap.ipynb
-PHASE 2  > DATA ANALYSIS    -
+
+PHASE 2  > DATA ANALYSIS    - Naukri-data-analysis.ipynb
